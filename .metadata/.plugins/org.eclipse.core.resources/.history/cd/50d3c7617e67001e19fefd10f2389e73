@@ -1,0 +1,23 @@
+package com.api.product.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class productController {
+	
+	//home
+	public String home() {
+		return "welcome product";
+	}
+	//about
+	public String about() {
+		
+		return "welcome about";
+	}
+	//contact
+	public String contact() {
+		return "welcome contact";
+	}
+}

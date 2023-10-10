@@ -1,0 +1,47 @@
+package com.api.product.model;
+
+public class ProductModel {
+	
+	private int codigo;
+	private String text;
+	private double value;
+	
+	public ProductModel() {
+		
+	}
+	
+
+	public ProductModel(int codigo, String text, double value) {
+		
+		this.codigo = codigo;
+		this.text = text;
+		this.value = value;
+	}
+
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public double getValue() {
+		return value;
+	}
+
+	public void setValue(double value) {
+		this.value = value;
+	}
+	
+
+}
